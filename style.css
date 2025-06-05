@@ -1,0 +1,103 @@
+/* @import url(`https://fonts.googleapis.com/css2?family=poppins:wght@500&display=swap`); */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'poppins'; */
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e1ff;
+    background-image: linear-gradient(210deg, #e6e1ff 30%, #eee7ff 50%, #b5deff 70%);
+}
+.container{
+    border: 1px solid black;
+    width: 350px;
+    min-width: 50%;
+    max-width: 90%;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+header{
+    width: 70%;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #2c3e50;
+}
+button{
+    padding: 5px;
+    margin: 1px;
+    /* max-width: 200px; */
+    line-height: 0.9rem;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fef5b5; /* Light Yellow */
+    color: #3c3c3c;
+}
+#clear{
+    padding: 8px;
+    line-height: 0.9rem;
+    font-size: 0.9rem;
+}
+button:hover{
+    background-color: #d8b0ff;
+}
+.tasks{
+    list-style: none;
+    background-color: #f1f3f48f;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #5f6368;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.item{
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.completed{
+    background-color: #e8f5e997;
+    color: #4caf50;
+    text-decoration: line-through;
+}
+.task{
+    width: 75%;
+}
+.edit{
+    display: flex;
+}
+#input{
+    outline: none;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    line-height: 2rem;
+    font-size: 1.1rem;
+    padding: 2px;
+    color: #888;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+#input:focus{
+    border: 1px solid #ccc;
+}
