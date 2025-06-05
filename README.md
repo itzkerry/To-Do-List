@@ -45,6 +45,7 @@ This project is deployed using Vercel for free hosting of static sites.
 ✍️ Author
 Krishna Virendrakumar Maurya
 📧 mauryakrishna098@gmail.com
+
 🔗 [GitHub](https://github.com/itzkerry) • [LinkedIn](https://linkedin.com/in/mauryakrishna09)
 
 
